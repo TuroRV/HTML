@@ -1,0 +1,96 @@
+body {
+  margin: 0; 
+}
+header {
+  background-image: url("./comida.jpg");
+  text-align: center;
+  padding: 76pt;
+  display: flex;
+  justify-content: center;
+}
+#header-div {
+  color: white;
+  font-family: sans-serif;
+  width: 397pt;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #870f0f70;
+  padding: 1px 14pt;
+}
+#header-div h1 {
+  text-transform: uppercase;
+  margin: 0pt;
+  margin-top: 14pt;
+}
+#header-div h2 {
+  margin-top: 18px;
+  margin-bottom: 26pt;
+}
+nav {
+  background-color: #8b1014;
+  padding: 8pt;
+}
+main {
+  background-color: #eae9d7;
+  padding-top: 20pt;
+  padding-left: 50pt;
+  padding-right: 50pt;
+  font-family: sans-serif;
+  padding-bottom: 20pt;
+  overflow: hidden;
+  height: 607pt;
+  font-size: 14pt;
+}
+main h3 {
+  text-align: center;
+  color: #870f0f;
+  margin: 5pt;
+  font-size: 18pt;
+}
+li span {
+  color: #870f0f;
+  font-weight: bold;
+}
+ul li {
+  list-style-image: url("./foodicon.png");
+  padding-bottom: 15pt;
+}
+#takeaway_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 30pt;
+}
+#takeaway_container a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #870f0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17pt;
+}
+#takeaway_container a img {
+  padding-right: 10pt;
+}
+footer {
+  background-color: #8b1014;
+  text-align: center;
+  color: white;
+  padding: 16pt;
+  font-family: sans-serif;
+}
+@media screen and (max-width: 1280px) {
+  header {
+    background-image: url('./header_media.jpg');
+  }
+}
+@media screen and (max-width: 720px) {
+  header {
+    background-image: url('./header_peque.png');
+  } 
+}
+

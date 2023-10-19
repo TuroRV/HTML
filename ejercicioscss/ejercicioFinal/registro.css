@@ -1,0 +1,67 @@
+body {
+  background-image: url("./background_register.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#contenedor {
+  background-color: #b58b8c;
+  padding: 12pt 19pt;
+  border-radius: 5pt;
+}
+h1 {
+  margin: 0;
+}
+.container_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16pt;
+  padding-left: 6pt;
+}
+.container_section input {
+  width: 257pt;
+  height: 22pt;
+  background-color: #dad1cc;
+  border: none;
+  border-radius: 2pt;
+}
+#direccion_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16pt;
+  padding-left: 5pt;
+}
+#direccion_container input {
+  width: 165pt;
+  height: 22pt;
+  background-color: #dad1cc;
+  border: none;
+  border-radius: 2pt;
+}
+#provincia {
+  width: 168pt;
+  height: 22pt;
+  background-color: #dad1cc;
+  border: none;
+  border-radius: 2pt;
+}
+#pais {
+  width: 168pt;
+  height: 22pt;
+  background-color: #dad1cc;
+  border: none;
+  border-radius: 2pt;
+}
+button {
+  background-color: rgb(51 51 51);
+  color: white;
+  padding: 8pt 35pt;
+  border-radius: 3pt;
+  margin-top: 17pt;
+  margin-left: 5pt;
+}
+button:hover {
+  background-color: rgb(85 85 85);
+  cursor: pointer;
+}

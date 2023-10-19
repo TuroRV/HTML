@@ -1,0 +1,91 @@
+body {
+  margin: 0; 
+  background-color: #eae9d7;
+  font-family: sans-serif;
+}
+header {
+  background-image: url("./comida.jpg");
+  text-align: center;
+  padding: 76pt;
+  display: flex;
+  justify-content: center;
+}
+#header-div {
+  color: #ffffffeb;
+  font-family: sans-serif;
+  width: 397pt;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #870f0f70;
+  padding: 1px 14pt;
+}
+#header-div h1 {
+  text-transform: uppercase;
+  margin: 0pt;
+  margin-top: 14pt;
+}
+#header-div h2 {
+  margin-top: 18px;
+  margin-bottom: 26pt;
+}
+nav {
+  background-color: #8b1014;
+  padding: 8pt;
+}
+header a {
+  text-decoration: none;
+}
+footer {
+  background-color: #8b1014;
+  text-align: center;
+  color: white;
+  padding: 16pt;
+  font-family: sans-serif;
+}
+#title_section {
+  color: #870f10;
+  text-align: center;
+}
+.promociones {
+  background-color: white;
+  border-radius: 5pt;
+  padding: 19pt 11pt;
+  margin: 65pt;
+  margin-top: 15pt;
+  margin-bottom: 15pt;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.promocion {
+  background-color: burlywood;
+  text-align: center;
+  padding: 15pt;
+  border-radius: 3pt;
+  margin: 10px;
+  text-align: center;
+}
+.promocion img {
+  width: 240pt;
+}
+.promocion img:hover {
+  width: 260pt;
+}
+.promocion p {
+  text-align: left;
+}
+@media screen and (max-width: 1500px) {
+  .promociones{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .promociones{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
