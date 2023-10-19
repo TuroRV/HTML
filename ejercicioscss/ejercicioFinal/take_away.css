@@ -70,7 +70,7 @@ footer {
   width: 240pt;
 }
 .promocion img:hover {
-  width: 260pt;
+  transform: scale(1.1);
 }
 .promocion p {
   text-align: left;
