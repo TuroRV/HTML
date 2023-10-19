@@ -57,6 +57,7 @@ footer {
   margin-bottom: 15pt;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.233);
 }
 .promocion {
   background-color: burlywood;
@@ -65,9 +66,12 @@ footer {
   border-radius: 3pt;
   margin: 10px;
   text-align: center;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.233);
 }
 .promocion img {
   width: 240pt;
+  border-radius: 3pt;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.233);
 }
 .promocion img:hover {
   transform: scale(1.1);
